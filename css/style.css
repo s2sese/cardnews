@@ -5,6 +5,7 @@ body {
 .card,
 .card * {
   box-sizing: border-box;
+  position: relative;
 }
 
 .card {
@@ -42,7 +43,7 @@ body {
   justify-content: flex-start;
   flex-shrink: 0;
   position: absolute;
-  left: 37px;
+  left: 180px;
   top: 27.27px;
 }
 
