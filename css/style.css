@@ -1,7 +1,12 @@
+body {
+    background-color: #666;
+}
+
 .card,
 .card * {
   box-sizing: border-box;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -9,13 +14,16 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
+  margin: 300px;
 }
+
 .wbox {
   flex-shrink: 0;
   width: 664.54px;
   height: 100.99px;
   position: static;
 }
+
 .box {
   background: #ffffff;
   border-radius: 30.3px 0px 30.3px 0px;
@@ -25,6 +33,7 @@
   left: calc(50% - 332.27px);
   top: 0px;
 }
+
 .text {
   display: flex;
   flex-direction: row;
@@ -36,6 +45,7 @@
   left: 37px;
   top: 27.27px;
 }
+
 .tgr {
   display: flex;
   flex-direction: column;
@@ -45,6 +55,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .tinner {
   display: flex;
   flex-direction: column;
@@ -54,6 +65,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .top {
   display: flex;
   flex-direction: row;
@@ -63,6 +75,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .as {
   color: var(--sk-pic-point-color, #e0002b);
   text-align: left;
@@ -73,6 +86,7 @@
   width: 115px;
   height: 24px;
 }
+
 ._2024-01-19 {
   color: #858585;
   text-align: left;
@@ -81,6 +95,7 @@
   font-weight: 600;
   position: relative;
 }
+
 ._23-4-house-hr {
   color: #000000;
   text-align: left;
@@ -89,6 +104,7 @@
   font-weight: 600;
   position: relative;
 }
+
 .btn {
   background: var(--sk-pic-point-color, #e0002b);
   border-radius: 50.5px;
@@ -102,6 +118,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .d-3 {
   color: #ffffff;
   text-align: center;
